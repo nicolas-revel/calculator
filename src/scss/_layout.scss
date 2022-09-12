@@ -7,7 +7,7 @@ header {
 		text-shadow: #22223b;
 	}
 	font-family: "Roboto Mono", monospace;
-	font-size: 36px;
+	font-size: 24px;
 	background-color: #4a4e69;
 	color: #f2e9e4;
 	font-weight: 800;
@@ -29,6 +29,16 @@ footer {
 		margin: 0px;
 		margin-bottom: 40px;
 	}
+	height: 500px;
+	width: 350px;
+	border-radius: 20px;
+	background-color: #4a4e69;
+	box-shadow: 5px 5px 3px 4px #22223b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 35px;
 }
 
 .calculator--pad {
@@ -42,11 +52,10 @@ footer {
 
 .overload {
 	margin-right: 10%;
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 10px;
 	@media screen and (max-width: 1300px) {
-		margin: 0px;
-		margin-top: 20px;
+		margin: 20px 0px;
 	}
 }
 
